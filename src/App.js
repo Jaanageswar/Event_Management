@@ -9,14 +9,12 @@ import { HashRouter as Router, Route,Routes} from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <div >
         <Navbar />
         <Routes> 
           <Route path="/" element={<Home />} /> 
           <Route path="/booking" element={<Booking />} /> 
         </Routes>
         <Footer/>
-      </div>
     </Router>
   );
 }
