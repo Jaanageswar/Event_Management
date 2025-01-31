@@ -11,9 +11,9 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Routes> {/* Replace Switch with Routes */}
-          <Route path="/" element={<Home />} /> {/* Use element instead of component */}
-          <Route path="/booking" element={<Booking />} /> {/* Use element instead of component */}
+        <Routes> 
+          <Route path="/" element={<Home />} /> 
+          <Route path="/booking" element={<Booking />} /> 
         </Routes>
         <Footer/>
       </div>
